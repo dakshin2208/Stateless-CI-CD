@@ -20,4 +20,9 @@ public class AppController {
     public String version2(){
         return "Hello from kubernetes version 3.0 ...💙";
     }
+
+    @GetMapping("/version4")
+    public String cicd(){
+        return "Successfully Implemented CI-CD Project...❤️😍";
+    }
 }

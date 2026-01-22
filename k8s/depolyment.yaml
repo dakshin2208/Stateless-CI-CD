@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring
-          image: dakshin0820/spring-k8s-demo:1.3
+          image: dakshin0820/spring-k8s-demo:1.4
           imagePullPolicy: Always
           ports:
             - containerPort: 8090
