@@ -15,4 +15,9 @@ public class AppController {
     public String version1(){
         return "Hello from Version 1 👌";
     }
+
+    @GetMapping("/latestVersion")
+    public String version2(){
+        return "Hello from kubernetes version 3.0 ...💙";
+    }
 }
